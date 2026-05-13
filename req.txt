@@ -1,0 +1,8 @@
+If your Git repo contains a Docker project:
+
+docker build -t myapp .
+docker run -d -p 80:80 myapp
+
+You can also use Docker Compose:
+
+docker compose up -d
